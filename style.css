@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .duyme {
+    padding: 10px 45px;
+    border-radius: 50px;
+    background-color: #ff52bf;
+    color: white;
+    font-weight: 700;
+    font-size: .9rem;
+  }
+  
+  .header {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 0;
+    display: block;
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ebfbff;
+  }
+  
+  .header .container {
+    min-height: calc(100vh - 200px);
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header .container .esas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+  }
+  
+  .header .container .esas .logo {
+    width: 300px;
+  }
+  
+  .header .container .esas .duyme-header {
+    background-color: white;
+    color: black;
+  }
+  
+  .header .container .yazi {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  }
+  
+  .header .container .yazi .yazi-info h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+  }
+  
+  .header .container .yazi .yazi-info p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+  
+  .header .container .yazi .yazi-info .duyme-yazi {
+    padding: 15px 50px;
+    font-size: 1rem;
+  }
+  
+  .header .container .yazi .yazi-img img {
+    max-width: 600px;
+    margin-top: 40px;
+  }
+  
+  .melumat {
+    padding: 100px 0;
+  }
+  
+  .melumat .container .melumat-item {
+    padding: 50px 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+   flex-direction: column-reverse;
+  }
+  
+  .melumat .container .melumat-item .melumat-info {
+    margin-top: 30px;
+  }
+  
+  .melumat .container .melumat-item .melumat-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  
+  .melumat .container .melumat-item .melumat-info p {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #808d99;
+  }
+  
+  .duyme-card {
+    display: flex;
+    padding: 50px 0;
+    margin-bottom: -100px;
+  }
+  
+  
+  .duyme-card .container .melumat {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .duyme-card .container .melumat h2 {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  
+  .asagi {
+    background-color: #00252e;
+    color: white;
+    padding: 100px 0 30px 0;
+  }
+  
+  .asagi .container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .asagi .container .asagi-info {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .asagi .container .asagi-info .asagi-1 {
+    margin-top: 30px;
+  }
+  
+  .asagi .container .asagi-info .asagi-1 ul {
+   list-style: none;
+  }
+  
+  .asagi .container .asagi-info .asagi-1 ul li {
+    margin-top: 25px;
+  }
+  
+  .asagi .container .asagi-info .asagi-1 ul li .logo {
+    width: 200px;
+  }
+  
+  .asagi .container .asagi-info .asagi-1 ul li .contact {
+    display: flex;
+     align-items: start;
+     justify-content: start;
+  }
+  
+  .asagi .container .asagi-info .asagi-1 ul li .contact img {
+    margin-top: 10px;
+    width: 15px;
+  }
+  
+  .asagi .container .asagi-info .asagi-1 ul li .contact p {
+    font-size: 1.2rem;
+    margin-left: 20px;
+    padding-inline-end: 130px;
+
+  }
+  .asagi-2 ul li{
+    padding-right: 200px;
+   
+    
+ 
+  }
+  
+  .asagi .container .asagi-info .asagi-2 ul, .asagi .container .asagi-info .asagi-3 ul {
+    list-style: none;
+    
+  }
+  
+  .asagi .container .asagi-info .asagi-2 ul li, .asagi .container .asagi-info .asagi-3 ul li {
+    margin-top: 18px;
+    
+    
+    
+  }
+  
+  .asagi .container .asagi-info .asagi-2 ul li .asagi .container .asagi-info .asagi-3 ul li  {
+  
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+
+   
+  
+  
+  .asagi .container .asagi-info .asagi-4 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .asagi .container .asagi-copyright {
+    margin-top: 20px;
+    text-align: right;
+    font-size: .8rem;
+    padding-top: 250px;
+  }
+  .asagi-1 .logo{
+    background-color: #ebfbff;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .melumat .container .melumat-item {
+     
+    flex-direction: row;
+    padding: 50px 100px;
+    
+    justify-content: center;
+     align-items: center;
+      text-align: left;
+    }
+    .melumat .container .melumat-item .melumat-info {
+      margin-right: 50px;
+    }
+    .melumat .container .melumat-item .melumat-info h3 {
+      font-size: 1.7rem;
+    }
+    .melumat-info p {
+      font-size: 1rem;
+      
+    }
+  ;
+    }
+    .melumat .container.melumat-item {
+      flex-direction: row-reverse;
+    }
+    .melumat-info {
+      margin-left: 50px;
+    }
+    .duyme-card .container .melumat {
+      padding: 50px;
+    }
+    .duyme-card .container .melumat h2 {
+      font-size: 2rem;
+      margin-bottom: 50px;
+    }
+    .duyme-card .container .melumat a {
+      display: inline-block;
+      padding: 20px 60px;
+      font-size: 1.2rem;
+    }
+    .asagi .container .asagi-info {
+     flex-direction: row;
+    }
+   .asagi .container .asagi-info .asagi-1,{
+      margin-left: 50px;
+    }
+    .asagi .container .asagi-info .asagi-1 {
+    
+      margin: 0;
+    }
+    .asagi .container .asagi-info .asagi-2,
+    .asagi .container .asagi-info .asagi-3,
+    .asagi .container .asagi-info .asagi-4 {
+      margin-top: 70px;
+    }
+    .asagi .container .asagi-copyright {
+      text-align: right;
+    }
+    
+  
+  
+  @media only screen and (min-width: 1000px) {
+    .header {
+      background-image: url(../images/bg-hero-desktop.svg);
+      background-position: center;
+      background-size: cover;
+    }
+    .header .container .yazi {
+
+    flex-direction: row;
+      text-align: left;
+    }
+   
+    .header .container .yazi .yazi-info {
+     
+     flex: 2;
+      margin-right: 50px;
+    }
+    .header .container .yazi .yazi-info h1 {
+      font-size: 2.2rem;
+    }
+  }
+  
